@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+/* ###################### */
+
+.wrapper {
+    width: 80vw;
+    margin: auto;
+}
+
+h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: clamp(1rem, 0.1176rem + 3.7647vw, 6rem);
+    margin-bottom: 50px;
+}
+
+.output {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Content tile */
+
+.tile {
+    padding: 30px;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tile img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    object-fit: cover;
+    border: 2px solid;
+}
+
+.smallParagraph {
+    font-style: italic;
+    opacity: 0.75;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+a,
+button {
+    padding: 10px 20px;
+    font-weight: 600;
+    color: rgb(12, 106, 107);
+    border-radius: 10px;
+    background: rgba(253, 187, 45, 1);
+}
+
+button {
+    padding: 5px 10px;
+}
+
+form {
+    margin-bottom: 50px;
+    min-width: 500px;
+}
+
+.input,
+.sort,
+.language {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.fa-newspaper {
+    color: black;
+}
